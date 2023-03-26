@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>PLaylist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="fa-solid fa-music"></i>Playlist</h4>
+                <h4 class="active"><span></span><i class="fa-solid fa-music"></i>Last Listened</h4>
+                <h4 class="active"><span></span><i class="fa-solid fa-music"></i>Recommened</h4>
+            </div>
+
+            <div class="song_menu">
+                <li class="song_item">
+                    <span>01</span>
+                    <img src="img/1.jpg" alt="1">
+                    <h5>
+                        BLUE EYES 
+                        <div class="subtitle">Yo Yo Honey Singh</div>
+                    </h5>
+                    <i class="playList fa-regular fa-circle-play" id="1"></i>
+                </li>
+                <li class="song_item">
+                    <span>02</span>
+                    <img src="img/2.jpg" alt="2 ">
+                    <h5>
+                        PHIR MOHABBAT 
+                        <div class="subtitle">Arijit Singh</div>
+                    </h5>
+                    <i class="playList fa-regular fa-circle-play" id="2"></i>
+                </li>
+                <li class="song_item">
+                    <span>03</span>
+                    <img src="img/3.jpg" alt="3">
+                    <h5>
+                        IKTARA
+                        <div class="subtitle">Amit Trivedi</div>
+                    </h5>
+                    <i class="playList fa-regular fa-circle-play" id="3"></i>
+                </li>
+                <li class="song_item">
+                    <span>04</span>
+                    <img src="img/4.jpg" alt="4">
+                    <h5>
+                        RAM RAM 
+                        <div class="subtitle">MC Square</div>
+                    </h5>
+                    <i class="playList fa-regular fa-circle-play" id="4"></i>
+                </li>
+                <li class="song_item">
+                    <span>05</span>
+                    <img src="img/5.jpg" alt="5">
+                    <h5>
+                        I GUESS
+                        <div class="subtitle">KRSNA</div>
+                    </h5>
+                    <i class="playList fa-regular fa-circle-play" id="5"></i>
+                </li>
+                <li class="song_item">
+                    <span>06</span>
+                    <img src="img/6.jpg" alt="6">
+                    <h5>
+                        LEMONADE 
+                        <div class="subtitle">Diljit Dosanjh</div>
+                    </h5>
+                    <i class="playList fa-regular fa-circle-play" id="6"></i>
+                </li>
+            </div>
+        </div>
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="What Do You Want To Listen?">
+                    
+                </div>
+                <div class="user">
+                    <img src="img/user.jpg" alt="user">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>TURN UP THE MUSIC!</h1>
+                <p>
+                    Music is the universal language of mankind
+                    <br>
+                    Where words fail, music speaks.
+                </p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+
+            <div class="popular_songs">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+                    <div class="btn_s">
+                        <i id="left_scroll" class="fa-solid fa-arrow-left"></i>
+                        <i id="right_scroll" class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/7.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="7"></i>            
+                        </div>
+                        <h5>Besharam Rang
+                            <br>
+                            <div class="subtitle">Vishal Shekhar</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/8.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="8"></i>            
+                        </div>
+                        <h5>Pyaar Hota 
+                            <br>
+                            <div class="subtitle">Arijit Singh</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/9.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="9"></i>            
+                        </div>
+                        <h5>Champangne
+                            <br>
+                            <div class="subtitle">Diljit Dosanjh</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/10.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="10"></i>            
+                        </div>
+                        <h5>MockingBird
+                            <br>
+                            <div class="subtitle">Eminem</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/11.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="11"></i>            
+                        </div>
+                        <h5>Ektarfa
+                            <br>
+                            <div class="subtitle">King</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/12.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="12"></i>            
+                        </div>
+                        <h5>Maan Meri Jaan
+                            <br>
+                            <div class="subtitle">King</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/13.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="13"></i>            
+                        </div>
+                        <h5>10 pe 10
+                            <br>
+                            <div class="subtitle">KR$NA</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/14.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="14"></i>            
+                        </div>
+                        <h5>Chhore NCR Aale
+                            <br>
+                            <div class="subtitle">Paradox</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/15.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="15"></i>            
+                        </div>
+                        <h5>Levels
+                            <br>
+                            <div class="subtitle">Sidhu Moosewala</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/16.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="16"></i>            
+                        </div>
+                        <h5>Dj Wale Babu
+                            <br>
+                            <div class="subtitle">Badshah</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/17.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="17"></i>            
+                        </div>
+                        <h5>Tere Pyaar mein
+                            <br>
+                            <div class="subtitle">Arijit Singh</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/18.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="18"></i>            
+                        </div>
+                        <h5>Nazar Lag Jaayegi
+                            <br>
+                            <div class="subtitle">Javed Ali</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/19.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="19"></i>            
+                        </div>
+                        <h5>Roll Up
+                            <br>
+                            <div class="subtitle">KR$NA/Badshah</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/20.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="20"></i>            
+                        </div>
+                        <h5>Fall Off
+                            <br>
+                            <div class="subtitle">KR$NA</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/21.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="21"></i>            
+                        </div>
+                        <h5>Villan
+                            <br>
+                            <div class="subtitle">KR$NA</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/22.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="22"></i>            
+                        </div>
+                        <h5>Untitled
+                            <br>
+                            <div class="subtitle">KR$NA</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/23.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="23"></i>            
+                        </div>
+                        <h5>Tommy Lee
+                            <br>
+                            <div class="subtitle">Tyla Yaweh</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/24.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="24"></i>            
+                        </div>
+                        <h5>Titanic
+                            <br>
+                            <div class="subtitle">Juice Wrld</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/25.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="25"></i>            
+                        </div>
+                        <h5>Legends
+                            <br>
+                            <div class="subtitle">Juice Wrld</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/26.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="26"></i>            
+                        </div>
+                        <h5>Black And White
+                            <br>
+                            <div class="subtitle">Juice Wrld</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/27.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="27"></i>            
+                        </div>
+                        <h5>Bandit
+                            <br>
+                            <div class="subtitle">Juice Wrld</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/28.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="28"></i>            
+                        </div>
+                        <h5>Ghost
+                            <br>
+                            <div class="subtitle">Confetti</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/29.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="29"></i>            
+                        </div>
+                        <h5>Enemy
+                            <br>
+                            <div class="subtitle">Imaginary Dragons</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/30.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="30"></i>            
+                        </div>
+                        <h5>Believer
+                            <br>
+                            <div class="subtitle">Imaginary Dragons</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/31.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="31"></i>            
+                        </div>
+                        <h5>Bhoj
+                            <br>
+                            <div class="subtitle">MC Square</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/32.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="32"></i>            
+                        </div>
+                        <h5>Jaadugar
+                            <br>
+                            <div class="subtitle">Paradox</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/33.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="33"></i>            
+                        </div>
+                        <h5>Summer High
+                            <br>
+                            <div class="subtitle">AP Dhillon</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/34.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="34"></i>            
+                        </div>
+                        <h5>Namo Namo
+                            <br>
+                            <div class="subtitle">Amit Trivedi</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/35.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="35"></i>            
+                        </div>
+                        <h5>NO LOVE
+                            <br>
+                            <div class="subtitle">SHUBH</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/36.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="36"></i>            
+                        </div>
+                        <h5>WE ROLLIN
+                            <br>
+                            <div class="subtitle">SHUBH</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/37.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="37"></i>            
+                        </div>
+                        <h5>Dope Shope
+                            <br>
+                            <div class="subtitle">Yo Yo Honey Singh</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="img/38.jpg" alt="">
+                            <i class="playList fa-regular fa-circle-play" id="38"></i>            
+                        </div>
+                        <h5>Excuses
+                            <br>
+                            <div class="subtitle">AP Dhillon</div>
+                        </h5>
+                    </li>
+
+
+                    
+                </div>
+            </div>
+
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i id="left_scrolls" class="fa-solid fa-arrow-left"></i>
+                        <i id="right_scrolls" class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="img/Arijit.jpg" alt="Arijit Singh" title="Arijit Singh">
+                    </li>
+                    <li>
+                        <img src="img/Yo yo.jpg" alt="Yo Yo Honey SIngh" title="Yo Yo Honey SIngh">
+                    </li>
+                    <li>
+                        <img src="img/sunidhi.jpg" alt="Sunidhi Chauhan" title="Sunidhi Chauhan">
+                    </li>
+                    <li>
+                        <img src="img/sidhu.jpg" alt="Sidhu Moosewala" title="Sidhu Moosewala">
+                    </li>
+                    <li>
+                        <img src="img/badshah.jpg" alt="Badshah" title="Badshah">
+                    </li>
+                    <li>
+                        <img src="img/Diljit.jpg" alt="Diljit Dosanjh" title="Diljit Dosanjh">
+                    </li>
+                    <li>
+                        <img src="img/king.jpg" alt="King" title="King">
+                    </li>
+                    <li>
+                        <img src="img/krsna.jpg" alt="KR$NA" title="KR$NA">
+                    </li>
+                    <li>
+                        <img src="img/kailash.jpg" alt="Kailash Kher" title="Kailash Kher">
+                    </li>
+                    <li>
+                        <img src="img/VS.jpg" alt="Vishal-Shekhar" title="Vishal-Shekhar">
+                    </li>
+                    <li>
+                        <img src="img/Atif.jpg" alt="Atif Aslam" title="Atif Aslam">
+                    </li>
+                    <li>
+                        <img src="img/mc.jpg" alt="MC Square" title="MC Square">
+                    </li>
+                    <li>
+                        <img src="img/para.jpg" alt="Paradox" title="Paradox">
+                    </li>
+                    <li>
+                        <img src="img/jubin.jpg" alt="Jubin Nautiyal" title="Jubin Nautiyal">
+                    </li>
+                </div>
+            </div>
+
+            
+        
+        </div>
+        <div class="master_play">
+            <div class="empty animation" id="stop">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <img src="img/1.jpg" alt="" id="master_poster">
+            <h5 id="title">BLUE EYES <br> 
+                <div class="subtitle">Yo Yo Honey Singh</div>
+            </h5>
+            <div class="icons">
+                <i class="fas fa-step-backward" id="back"></i>
+                <i class="fa-regular fa-circle-play" id="masterplay"></i>
+                <i class="fas fa-step-forward" id="next"></i>
+            </div>
+            <span class="timer" id="currentstart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span class="timer" id="currentend">0:00</span>
+
+            <div class="vol">
+                <i class="fa-solid fa-volume-high" id="vol_icon"></i>
+                <!-- <i class="fas fa-step-forward"></i> -->
+                <input type="range" id="vol" min="0" value="00" max="100">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+
+    </header>
+    
+    <script src="https://kit.fontawesome.com/1b13cb1537.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+          
